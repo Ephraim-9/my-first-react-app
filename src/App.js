@@ -4,6 +4,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 import UserCard from "./UserCard";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         <UserCard name="Alice" age={25} job="Engineer" />
         <UserCard name="Bob" age={30} job="Designer" />
       </div>
+      <div>
+        <h1>React Counter App</h1>
+        <Counter />
+      </div>
+
     </div>
   );
 }
